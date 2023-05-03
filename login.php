@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   // Validate user's credentials here
 
-  if (/* User's credentials are valid */) {
+  if ($username === 'nothing' && $password === 'nowhere') {
     setcookie('username', $username, time() + (86400 * 30), '/');
     setcookie('password', $password, time() + (86400 * 30), '/');
     header('Location: /info/');
