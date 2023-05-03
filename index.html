@@ -11,21 +11,15 @@
 <script src="particles.min.js"></script>
 <script src="app.js"></script>
 
-<style>
-	#login-form {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	}
-  </style>
-
-<form id="login-form" method="post" action="login.php">
-	<label for="username">Username:</label>
-	<input type="text" id="username" name="username"><br><br>
-	<label for="password">Password:</label>
-	<input type="password" id="password" name="password"><br><br>
-	<input type="submit" value="Submit">
-  </form>
+<div style="display: block; text-align: center;">
+	<form style="display: inline-block; margin-left: auto; margin-right: auto; text-align: left;">
+	  <label for="username">Username:</label>
+	  <input type="text" id="username" name="username"><br><br>
+	  <label for="password">Password:</label>
+	  <input type="password" id="password" name="password"><br><br>
+	  <input type="submit" value="Submit">
+	</form>
+  </div>
  
 </body>
 </html>
